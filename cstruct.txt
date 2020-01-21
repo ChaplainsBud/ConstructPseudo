@@ -1,0 +1,114 @@
+"Control Structure in Pseudocode"
+
+input
+output
+processing steps
+
+variables
+
+2 Tests 
+
+1. Process Customer Record
+
+input: name and cost 
+selection: control flow according to tax code
+
+sequence: receive arguments
+selection: apply operations based on code number
+repetition
+
+Read customer's name
+Read purchase amount
+Apply Tax Code:
+
+if tax code is equal to zero,
+ subtract price from (price multiply by 0) and (price modulus by 0)
+
+if else tax code is equual to 1, then state sales tax only, 
+  subtract price from (multiply by .03) and (price modulus by .03)
+
+if else federal and state sales tax is equal to 2,
+  subtract price from (multiply by .05) and (price modulus by .05)
+
+else special stales tax, 
+  subtract price from (multiply by .07) and (price modulus by .07)
+ 
+Put the total amount due and sales tax into variables
+Create an object, log out or return keys and values:
+customer's name, purchase amount, sales tax, and total amount due
+
+i.TestA: Fred, $10
+
+return: 
+
+name: Fred
+price: $10
+code: 0
+deduction:0
+price: $10
+
+ii. TestB: Vlad, $20
+
+name: Vlad
+price: $20
+code: 1
+deduction: 0.60
+price: $19.40
+
+
+2. Calculate Employee's Pay
+
+sequence: receive arguments
+selection: apply operations based on code number
+repetition
+
+i. Declare function with parameters for employee's number, pay rate, and number of hours 
+worked
+ii. Look up pay rate and hours by employee's number.
+iii. Multiply pay rate by number of hours.
+iv. 
+v.  if number of hours exceeds 60, return invalid hours;
+    if pay rate exceeds $25.00, return invalid pay rate;
+    if number of hours exceeds 60 and pay rate exceeds $25.00, return invalid hours and pay rate.
+
+computer employee's weekly pay
+
+vi.
+if valid, print
+if invalid, do not print 
+
+---- Comments:
+max hours == 60 
+max hourly rate == $25.00
+
+Log out or return: hours worked times pay rate; if more than 35 hours are worked,
+payment for overtime hours worked is time-and-a-half
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
